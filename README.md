@@ -48,7 +48,7 @@ For the text-based emotion recognition, we use the following models, features, a
 In the final phase, we employ **late fusion** to combine predictions from both speech and text models. A total of **49 different combinations** are tested, where at least one model from each modality (speech and text) is used to make the final emotion prediction.
 
 ## Block Diagram
-![Project Block Diagram](block_diagram .png)
+![Project Block Diagram]([block_diagram .png](https://github.com/Yazan-Abdalmutee/Graduation-Project/blob/main/block_diagram%20.png))
 
 ---
 
