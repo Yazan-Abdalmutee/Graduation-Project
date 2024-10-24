@@ -3,9 +3,21 @@
 ## Project Overview
 This project implements a multimodal emotion recognition system that combines speech and text inputs to classify emotions. The goal is to develop a robust system by integrating deep learning and traditional machine learning models for both speech and text, using a late fusion approach. Our system leverages different features from both modalities to enhance accuracy in emotion detection.
 
+## Emotions
+The emotions recognized in this project are:
+- Happy
+- Sad
+- Angry
+- Neutral
+  
+## Block Diagram
+![Block Diagram](block_diagram%20.png)
+
 ## Datasets
 - **Speech Dataset**: [RAVDESS](https://zenodo.org/record/1188976) (Ryerson Audio-Visual Database of Emotional Speech and Song)
-- **Text Dataset**: [ISEAR](https://www.unige.ch/cisa/research/materials-and-online-research/research-material/) (International Survey on Emotion Antecedents and Reactions)
+- **Text Dataset**:
+    - [ISEAR](https://www.kaggle.com/datasets/faisalsanto007/isear-dataset) (International Survey on Emotion Antecedents and Reactions)
+    - [GoEmotion](https://github.com/google-research/google-research/tree/master/goemotions) (A dataset of 58K diverse comments labeled with 27 emotion categories)
 - **Late Fusion Dataset**: Real data gathered from YouTube, combining both speech and text inputs for final classification.
 
 ## Speech Modality
@@ -47,12 +59,5 @@ For the text-based emotion recognition, we use the following models, features, a
 ## Late Fusion
 In the final phase, we employ **late fusion** to combine predictions from both speech and text models. A total of **49 different combinations** are tested, where at least one model from each modality (speech and text) is used to make the final emotion prediction.
 
-## Block Diagram
-![Block Diagram](block_diagram%20.png)
 
 ---
-
-## Installation and Usage
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/multimodal-emotion-recognition.git
