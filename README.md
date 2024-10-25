@@ -61,3 +61,7 @@ In the final phase, we employ **late fusion** to combine predictions from both s
 
 
 ---
+
+## Detailed Findings
+For detailed processes, findings, and results, please refer to the document: [Emotion_recognition_project___Fall2023.pdf](Emotion_recognition_project___Fall2023.pdf).
+
